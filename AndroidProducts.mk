@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pb_X6886.mk
+    $(LOCAL_DIR)/pb_X6885.mk
 
 COMMON_LUNCH_CHOICES := \
-    pb_X6886-eng \
-    pb_X6886-userdebug \
-    pb_X6886-user
+    pb_X6885-eng \
+    pb_X6885-userdebug \
+    pb_X6885-user
