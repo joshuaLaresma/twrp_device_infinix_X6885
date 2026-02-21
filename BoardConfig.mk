@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/X6886
+DEVICE_PATH := device/infinix/X6885
 
 # Architecture
 TARGET_ARCH := arm64
@@ -18,7 +18,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := X6886
+TARGET_BOOTLOADER_BOARD_NAME := X6885
 TARGET_NO_BOOTLOADER := true
 
 # Build hacks
@@ -159,15 +159,15 @@ TW_CUSTOM_BATTERY_POS := 790
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Infinix-X6886
+TARGET_OTA_ASSERT_DEVICE := Infinix-X6885
 
 # Brightness
 override TW_DEFAULT_BRIGHTNESS := 2047
 override TW_MAX_BRIGHTNESS := 4095
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_Infinix-X6886
-TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6886
+TARGET_INIT_VENDOR_LIB := libinit_Infinix-X6885
+TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6885
 
-# TWRP Configs
-TW_DEVICE_VERSION := X6882_by_andrei0514
+# Maintainer Unofficial
+PB_MAINTAINER := "アンドレイ"

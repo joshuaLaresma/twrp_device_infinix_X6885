@@ -25,10 +25,10 @@ void vendor_load_properties()
     for (const string &prop : prop_partitions)
     {
         property_override(string("ro.product.") + prop + string("brand"), "Infinix");
-        property_override(string("ro.product.") + prop + string("name"), "X6886-OP");
-        property_override(string("ro.product.") + prop + string("device"), "Infinix-X6886");
-        property_override(string("ro.product.") + prop + string("model"), "Infinix X6886");
-        property_override(string("ro.product.") + prop + string("marketname"), "Infinix HOT 60 PRO PLUS");
-        property_override(string("ro.product.system.") + prop + string("device"), "Infinix HOT 60 PRO PLUS");
+        property_override(string("ro.product.") + prop + string("name"), "X6885-OP");
+        property_override(string("ro.product.") + prop + string("device"), "Infinix-X6885");
+        property_override(string("ro.product.") + prop + string("model"), "Infinix X6885");
+        property_override(string("ro.product.") + prop + string("marketname"), "Infinix HOT 60 PRO");
+        property_override(string("ro.product.system.") + prop + string("device"), "Infinix HOT 60 PRO");
     }
 }
