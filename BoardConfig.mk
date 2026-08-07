@@ -174,3 +174,6 @@ PB_MAINTAINER := "アンドレイ"
 
 # SELinux Configuration
 BOARD_SEPOLICY_DIRS += device/infinix/X6885/sepolicy
+
+# Recovery Root Overlay
+TARGET_RECOVERY_ROOT_OUT := device/infinix/X6885/recovery/root
