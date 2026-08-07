@@ -1,3 +1,1 @@
-# Allow recovery to find services safely without violating neverallow assertions
 allow recovery service_manager_service:service_manager { find };
-allow recovery service_manager_vndservice:service_manager { find };
