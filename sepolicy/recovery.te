@@ -1,1 +1,4 @@
 allow recovery service_manager_service:service_manager { find };
+
+# Allow recovery to read properties mapped from tmpfs
+allow recovery property_type:file { open getattr map };
