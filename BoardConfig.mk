@@ -171,3 +171,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6885
 
 # Maintainer Unofficial
 PB_MAINTAINER := "アンドレイ"
+
+# SELinux Configuration
+BOARD_SEPOLICY_DIRS += device/infinix/X6885/sepolicy
