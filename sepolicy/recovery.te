@@ -1,0 +1,3 @@
+allow recovery service_manager_service:service_manager { add find };
+allow recovery service_manager_vndservice:service_manager { add find };
+allow recovery servicemanager:service_manager { add };
